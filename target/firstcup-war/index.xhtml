@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+
+    <h:head>
+        <title>FirstCup Project</title>
+        <link rel="stylesheet" type="text/css" href="resources/style/styles.css" />
+    </h:head>
+    
+    <h:body>
+        <div class="content">
+            
+            <h1>TEMAS GERAIS</h1>
+
+            <h2>1. Open Liberty</h2>
+            <h3>Defini&ccedil;&atilde;o e Prop&oacute;sito</h3>
+            <p>Open Liberty &eacute; um servidor de aplica&ccedil;&otilde;es de c&oacute;digo aberto mantido pela IBM, desenvolvido para Java EE. Seu objetivo &eacute; fornecer um servidor leve e r&aacute;pido para execu&ccedil;&atilde;o de aplica&ccedil;&otilde;es empresariais e microservices.</p>
+
+            <h3>Principais Caracter&iacute;sticas</h3>
+            <ul>
+                <li><strong>Leve e Modular:</strong> Oferece apenas o que &eacute; necess&aacute;rio, permitindo que os desenvolvedores escolham os recursos espec&iacute;ficos para suas aplica&ccedil;&otilde;es, o que reduz o tempo de inicializa&ccedil;&atilde;o e o uso de mem&oacute;ria.</li>
+                <li><strong>Atualiza&ccedil;&otilde;es Cont&iacute;nuas:</strong> A IBM atualiza regularmente o Open Liberty para garantir compatibilidade com as &uacute;ltimas vers&otilde;es de Java EE.</li>
+                <li><strong>Compatibilidade com Microservices:</strong> Projetado para suportar microservices e arquitetura em nuvem, facilitando a implementa&ccedil;&atilde;o e o gerenciamento de servi&ccedil;os independentes.</li>
+                <li><strong>Desenvolvimento R&aacute;pido e Cont&iacute;nuo:</strong> Com suporte ao desenvolvimento cont&iacute;nuo (DevOps), permite a integra&ccedil;&atilde;o com ferramentas de automa&ccedil;&atilde;o.</li>
+            </ul>
+
+            <h3>Vantagens do Open Liberty para Java EE</h3>
+            <ul>
+                <li><strong>R&aacute;pido e Escal&aacute;vel:</strong> Capaz de rodar com poucos recursos, o que o torna ideal para ambientes de desenvolvimento &aacute;geis.</li>
+                <li><strong>Ambiente Seguro e Confi&aacute;vel:</strong> Implementa pr&aacute;ticas de seguran&ccedil;a com suporte para TLS, criptografia e integra&ccedil;&atilde;o com sistemas de autentica&ccedil;&atilde;o robustos.</li>
+                <li><strong>Integra&ccedil;&atilde;o com Cloud e Containers:</strong> Open Liberty &eacute; otimizado para ambientes de cont&ecirc;ineres e nuvem, permitindo que as aplica&ccedil;&otilde;es escalem facilmente.</li>
+            </ul>
+
+            <h2>2. Containers</h2>
+            <h3>Os cont&ecirc;ineres s&atilde;o ambientes leves que cont&ecirc;m todas as depend&ecirc;ncias de uma aplica&ccedil;&atilde;o, facilitando a portabilidade e a consist&ecirc;ncia entre ambientes.</h3>
+
+            <h4>Docker e Cont&ecirc;ineres</h4>
+            <h3>Defini&ccedil;&atilde;o e Import&acirc;ncia</h3>
+            <p><strong>Docker</strong> &eacute; uma plataforma que permite empacotar, distribuir e executar aplica&ccedil;&otilde;es em cont&ecirc;ineres. <strong>Benef&iacute;cios dos Cont&ecirc;ineres:</strong> R&aacute;pida inicializa&ccedil;&atilde;o, uso eficiente de recursos e isolamento de processos, que ajuda a evitar conflitos de depend&ecirc;ncias.</p>
+
+            <h3>Como Docker Transforma o Desenvolvimento e a Entrega de Aplica&ccedil;&otilde;es</h3>
+            <ul>
+                <li><strong>Portabilidade:</strong> Os cont&ecirc;ineres garantem que o c&oacute;digo funcione da mesma maneira em qualquer ambiente (desenvolvimento, teste, produ&ccedil;&atilde;o).</li>
+                <li><strong>Escalabilidade:</strong> &Eacute; f&aacute;cil escalar cont&ecirc;ineres para atender a uma demanda crescente.</li>
+                <li><strong>Integra&ccedil;&atilde;o com CI/CD:</strong> Docker &eacute; essencial em pipelines de CI/CD, pois permite testar, construir e implantar rapidamente novas vers&otilde;es de aplica&ccedil;&otilde;es.</li>
+            </ul>
+
+            <h3>Docker para Aplica&ccedil;&otilde;es Java EE com Open Liberty</h3>
+            <ul>
+                <li><strong>Containerizando o Open Liberty:</strong> O servidor pode ser facilmente empacotado em um cont&ecirc;iner Docker, o que simplifica a distribui&ccedil;&atilde;o e o escalonamento de aplica&ccedil;&otilde;es Java EE.</li>
+                <li><strong>Imagens Oficiais:</strong> O Open Liberty fornece imagens Docker oficiais, que facilitam a implementa&ccedil;&atilde;o r&aacute;pida e segura de aplica&ccedil;&otilde;es Java em cont&ecirc;ineres.</li>
+                <li><strong>Pr&aacute;ticas de Configura&ccedil;&atilde;o:</strong> As aplica&ccedil;&otilde;es podem ser configuradas usando vari&aacute;veis de ambiente e volumes do Docker, o que permite manter o c&oacute;digo e as configura&ccedil;&otilde;es independentes do cont&ecirc;iner.</li>
+            </ul>
+            
+            <!-- Título Principal -->
+            <h1>Campos com Múltiplos Valores</h1>
+
+            <!-- Seção de Descrição -->
+            <h2>O que são Campos com Múltiplos Valores?</h2>
+            <p>Em bancos de dados e programação, <strong>campos com múltiplos valores</strong> referem-se a atributos ou colunas que podem armazenar mais de um valor por registro. Essa abordagem permite que um campo contenha uma coleção de valores em vez de um valor único. Por exemplo, imagine uma tabela de produtos em que o campo "Cores Disponíveis" possa armazenar várias cores para um mesmo produto.</p>
+
+            <!-- Exemplos de Campos com Múltiplos Valores -->
+            <h2>Exemplos</h2>
+            <ul>
+                <li><strong>Banco de Dados Relacional</strong>: Em sistemas de banco de dados relacionais, campos com múltiplos valores geralmente exigem a criação de tabelas associativas (como tabelas de relacionamento muitos-para-muitos) ou o uso de tipos específicos como arrays ou listas.</li>
+                <li><strong>NoSQL</strong>: Em bancos de dados NoSQL, como MongoDB, é comum armazenar múltiplos valores em campos usando arrays ou documentos aninhados.</li>
+            </ul>
+
+            <!-- Vantagens dos Campos com Múltiplos Valores -->
+            <h2>Vantagens</h2>
+            <ul>
+                <li><strong>Reduz a Redundância</strong>: Evita a duplicação de registros para armazenar variações do mesmo item.</li>
+                <li><strong>Facilita o Agrupamento de Dados</strong>: Campos com múltiplos valores são úteis para dados que pertencem a uma categoria comum, como habilidades de um funcionário ou tags de uma postagem.</li>
+            </ul>
+
+            <!-- Desvantagens dos Campos com Múltiplos Valores -->
+            <h2>Desvantagens</h2>
+            <ul>
+                <li><strong>Complexidade para Consultas</strong>: Consultar, filtrar e manipular dados em campos com múltiplos valores pode exigir sintaxe específica e processos adicionais, especialmente em bancos de dados relacionais.</li>
+                <li><strong>Risco de Violação de Normalização</strong>: Em bancos de dados relacionais, armazenar múltiplos valores em uma coluna (por exemplo, com uma string separada por vírgulas) pode violar a normalização e comprometer o desempenho e a integridade do banco de dados.</li>
+            </ul>
+
+
+            <!-- Continuar o restante do conteúdo seguindo o mesmo padrão -->
+            
+        </div>
+    </h:body>
+</html>
